@@ -12,8 +12,8 @@ public class Controller {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		DBJFrame dbjFrame = new DBJFrame();
-		
+		DBJFrame dbjFrame = new DBJFrame(500,400,"´úÂëÉú³ÉÆ÷");
+		dbjFrame.addListener();
 	}
 
 }
